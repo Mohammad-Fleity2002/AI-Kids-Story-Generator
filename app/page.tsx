@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-[#ccd3ff]">
       {/* {Header} */}
-      <Header/>
+      {/* <Header/> */}
       {/* {Hero} */}
       <Hero/>
     </div>

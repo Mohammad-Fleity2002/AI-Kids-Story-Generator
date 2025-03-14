@@ -4,7 +4,7 @@ import { Button } from '@heroui/button'
 import Link from 'next/link'
 function Hero() {
   return (
-    <div className='px-9 md:px-25 lg:px-40 mt-9 h-screen'>
+    <div className='px-9 md:px-25 lg:px-40  h-screen'>
       <div className='grid grid-cols-1 md:grid-cols-2'>
         <div>
           <h2 className='text-[50px] text-primary font-extrabold py-10'>Craft Magical Stories for Kids in Minutes</h2>
