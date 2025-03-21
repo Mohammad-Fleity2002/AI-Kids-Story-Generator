@@ -1,0 +1,22 @@
+"""
+    You are tasked with creating a children's story for the given age group, story type, and subject. You should also provide detailed image prompts for each chapter and the story cover.
+
+    Instructions:
+    1. Write a complete children's story with 5 chapters, keeping the age group, story type, and subject in mind.
+    2. Each chapter should be detailed with engaging content appropriate for the age group and story type.
+    3. For each chapter, create a detailed image prompt that corresponds to the events in the chapter. Additionally, provide an image prompt for the cover of the story.
+    4. Ensure the chapters and their images are unique and do not repeat the content.
+    5. Maintain the existing structure of chapters and image descriptions without modifying or eliminating them.
+
+    ### Input:
+    - Age Group: {ageGroup}
+    - Story Type: {storyType}
+    - Story Subject: {storySubject}
+    - Image Style: {imageStyle}
+
+    ### Output Format:
+    Return the output as a valid JSON object. The JSON should include:
+    - Story Title: Name of the story.
+    - Chapters: List of 5 chapters with text and a corresponding image prompt for each chapter.
+    - Cover Image Prompt: A detailed image prompt for the story cover with the story name.
+"""
